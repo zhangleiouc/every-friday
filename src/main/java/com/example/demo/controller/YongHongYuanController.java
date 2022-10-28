@@ -6,4 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/yongHongYuan")
 public class YongHongYuanController {
+    
+    @RequestMapping("hello")
+    public String hello() {
+        return "world";
+    }
 }
