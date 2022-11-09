@@ -11,4 +11,9 @@ public class YongHongYuanController {
     public String hello() {
         return "world";
     }
+    
+    @RequestMapping("world")
+    public String world() {
+        return "world";
+    }
 }
