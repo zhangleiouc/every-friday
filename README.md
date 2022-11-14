@@ -1,2 +1,3 @@
 # every-friday
 chess
+beer
