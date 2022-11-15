@@ -16,4 +16,8 @@ public class YongHongYuanController {
     public String world() {
         return "world";
     }
+    @RequestMapping("buy")
+    public String buy() {
+        return "2.5L";
+    }
 }
