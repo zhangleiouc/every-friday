@@ -20,4 +20,9 @@ public class YongHongYuanController {
     public String buy() {
         return "2.5L";
     }
+    
+    @RequestMapping("list")
+    public String list() {
+        return "2.5L";
+    }
 }
