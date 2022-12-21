@@ -28,7 +28,12 @@ public class YongHongYuanController {
     }
     
     @RequestMapping("notdrink")
-    public String list() {
+    public String notdrink() {
         return "too cold, dont drink";
+    }
+    
+    @RequestMapping("canDrink")
+    public String canDrink() {
+        return "晚来天欲雪，能饮一杯否";
     }
 }
