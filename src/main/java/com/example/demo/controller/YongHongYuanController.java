@@ -27,6 +27,11 @@ public class YongHongYuanController {
         return "2.5L";
     }
     
+    @RequestMapping("list2")
+    public String list2() {
+        return "5L";
+    }
+    
     @RequestMapping("notdrink")
     public String notdrink() {
         return "too cold, dont drink";
