@@ -1,2 +1,2 @@
 # every-friday
-chess
+chess!!!
