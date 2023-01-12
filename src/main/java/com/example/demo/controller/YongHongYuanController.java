@@ -41,4 +41,10 @@ public class YongHongYuanController {
     public String canDrink() {
         return "晚来天欲雪，能饮一杯否";
     }
+    
+    @RequestMapping("closed")
+    public String closed() {
+        return "closed";
+    }
+    
 }
