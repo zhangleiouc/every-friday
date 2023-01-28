@@ -47,4 +47,9 @@ public class YongHongYuanController {
         return "closed";
     }
     
+    @RequestMapping("open")
+    public String open() {
+        return "open";
+    }
+    
 }
