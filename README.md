@@ -1,2 +1,4 @@
 # every-friday
-chess!!!
+chess
+beer
+chess!
