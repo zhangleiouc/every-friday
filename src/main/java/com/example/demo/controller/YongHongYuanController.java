@@ -52,4 +52,9 @@ public class YongHongYuanController {
         return "open";
     }
     
+    @RequestMapping("weather")
+    public String weather() {
+        return "warm";
+    }
+    
 }
