@@ -56,9 +56,14 @@ public class YongHongYuanController {
     public String weather() {
         return "warm";
     }
-     
+    
     @RequestMapping("2023new")
     public String newbeer() {
         return "warm";
+    }
+    
+    @RequestMapping("start")
+    public String justStart() {
+        return "start";
     }
 }
