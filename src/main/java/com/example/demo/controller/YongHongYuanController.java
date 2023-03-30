@@ -66,4 +66,9 @@ public class YongHongYuanController {
     public String justStart() {
         return "start";
     }
+    
+    @RequestMapping("weekend")
+    public String weekend() {
+        return "weekend";
+    }
 }
