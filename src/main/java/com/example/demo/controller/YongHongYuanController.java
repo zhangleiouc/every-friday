@@ -52,4 +52,23 @@ public class YongHongYuanController {
         return "open";
     }
     
+    @RequestMapping("weather")
+    public String weather() {
+        return "warm";
+    }
+    
+    @RequestMapping("2023new")
+    public String newbeer() {
+        return "warm";
+    }
+    
+    @RequestMapping("start")
+    public String justStart() {
+        return "start";
+    }
+    
+    @RequestMapping("weekend")
+    public String weekend() {
+        return "weekend";
+    }
 }
