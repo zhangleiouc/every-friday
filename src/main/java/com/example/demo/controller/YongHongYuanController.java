@@ -71,4 +71,14 @@ public class YongHongYuanController {
     public String weekend() {
         return "weekend";
     }
+    
+    @RequestMapping("incoming")
+    public String incoming() {
+        return "spring is incoming";
+    }
+    
+    @RequestMapping("summer")
+    public String summer() {
+        return "summer is incoming";
+    }
 }
