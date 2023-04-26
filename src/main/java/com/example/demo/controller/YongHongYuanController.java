@@ -81,4 +81,8 @@ public class YongHongYuanController {
     public String summer() {
         return "summer is incoming";
     }
+    @RequestMapping("wuyi")
+    public String wuyi() {
+        return "wuyi is incoming";
+    }
 }
