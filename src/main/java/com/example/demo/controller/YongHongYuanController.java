@@ -85,4 +85,10 @@ public class YongHongYuanController {
     public String wuyi() {
         return "wuyi is incoming";
     }
+    
+    @RequestMapping("stop")
+    public String stop() {
+        return "stop drink";
+    }
+    
 }
