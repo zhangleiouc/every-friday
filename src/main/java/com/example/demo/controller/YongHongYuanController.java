@@ -90,5 +90,10 @@ public class YongHongYuanController {
     public String stop() {
         return "stop drink";
     }
+
+    @RequestMapping("wb")
+    public String whiteBeer() {
+        return "QD whiteBeer";
+    }
     
 }
