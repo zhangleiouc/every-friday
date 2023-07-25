@@ -95,5 +95,9 @@ public class YongHongYuanController {
     public String whiteBeer() {
         return "QD whiteBeer";
     }
-    
+
+    @RequestMapping("ltns")
+    public String ltns() {
+        return "long time no see";
+    }
 }
