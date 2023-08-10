@@ -5,4 +5,6 @@ public interface UserDao {
     void list();
     
     void get();
+
+    void update();
 }
