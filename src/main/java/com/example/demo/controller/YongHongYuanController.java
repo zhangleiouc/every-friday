@@ -100,4 +100,9 @@ public class YongHongYuanController {
     public String ltns() {
         return "long time no see";
     }
+    
+    @RequestMapping("shiyi")
+    public String shiyi() {
+        return "too fast";
+    }
 }
