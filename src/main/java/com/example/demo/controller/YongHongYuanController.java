@@ -105,4 +105,10 @@ public class YongHongYuanController {
     public String shiyi() {
         return "too fast";
     }
+
+     
+    @RequestMapping("life")
+    public String life() {
+        return "today is not easy";
+    }
 }
