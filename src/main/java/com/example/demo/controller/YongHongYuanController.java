@@ -111,4 +111,8 @@ public class YongHongYuanController {
     public String life() {
         return "today is not easy";
     }
+    @RequestMapping("erguotou")
+    public String erguotou() {
+        return "tomorrow is more diffcult";
+    }
 }
