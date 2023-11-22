@@ -115,4 +115,9 @@ public class YongHongYuanController {
     public String erguotou() {
         return "tomorrow is more diffcult";
     }
+
+    @RequestMapping("knowledge")
+    public String knowledge() {
+        return "knowledge list";
+    }
 }
