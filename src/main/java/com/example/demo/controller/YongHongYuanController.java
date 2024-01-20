@@ -120,4 +120,8 @@ public class YongHongYuanController {
     public String knowledge() {
         return "knowledge list";
     }
+    @RequestMapping("knowledgeList")
+    public String knowledgeList() {
+        return "knowledge list";
+    }
 }
