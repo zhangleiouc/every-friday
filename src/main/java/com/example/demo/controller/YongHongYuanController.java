@@ -124,4 +124,8 @@ public class YongHongYuanController {
     public String knowledgeList() {
         return "knowledge list";
     }
+    @RequestMapping("abstinence")
+    public String isAbstinence() {
+        return "OK";
+    }
 }
