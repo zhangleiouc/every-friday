@@ -95,5 +95,8 @@ public class YongHongYuanController {
     public String whiteBeer() {
         return "QD whiteBeer";
     }
-    
+    @RequestMapping("again")
+    public String again() {
+        return "QD whiteBeer";
+    }
 }
