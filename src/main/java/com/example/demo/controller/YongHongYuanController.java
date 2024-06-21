@@ -128,4 +128,9 @@ public class YongHongYuanController {
     public String isAbstinence() {
         return "OK";
     }
+
+    @RequestMapping("summerAgain")
+    public String summerAgain() {
+        return "OK";
+    }
 }
