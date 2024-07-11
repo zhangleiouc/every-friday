@@ -133,4 +133,9 @@ public class YongHongYuanController {
     public String summerAgain() {
         return "OK";
     }
+
+    @RequestMapping("summerAgain2")
+    public String summerAgain2() {
+        return "OKOK";
+    }
 }
