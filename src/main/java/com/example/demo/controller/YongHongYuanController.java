@@ -138,4 +138,9 @@ public class YongHongYuanController {
     public String summerAgain2() {
         return "OKOK";
     }
+
+    @RequestMapping("longTimeNoSee")
+    public String longTimeNoSee() {
+        return "yes";
+    }
 }
