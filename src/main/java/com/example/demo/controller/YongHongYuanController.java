@@ -143,4 +143,9 @@ public class YongHongYuanController {
     public String longTimeNoSee() {
         return "yes";
     }
+    
+    @RequestMapping("boring")
+    public String boring() {
+        return "boring";
+    }
 }
